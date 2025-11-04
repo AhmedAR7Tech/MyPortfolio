@@ -8,8 +8,8 @@
 
 # استثناء الطبقات الثلاثة فقط
 !/ClsModels/
-!/BusinessLayer/
-!/DataAccessLayer/
+!/ClsBusinessLayer/
+!/ClsDataAccess/
 !/Controller/
 !/wwwroot/
 
