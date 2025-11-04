@@ -1,0 +1,20 @@
+﻿# تجاهل كل الملفات في المشروع
+/*
+
+# استثناء (تتبع) الملفات الأساسية في الجذر
+!.gitignore
+!*.sln
+!*.md
+
+# استثناء الطبقات الثلاثة فقط
+!/ClsModels/
+!/BusinessLayer/
+!/DataAccessLayer/
+!/Controller/
+!/wwwroot/
+
+# تجاهل مجلدات البناء داخل الطبقات
+**/bin/
+**/obj/
+**/.vs/
+**/packages/
